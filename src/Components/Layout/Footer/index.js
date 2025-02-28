@@ -66,7 +66,7 @@ const Footer = () => {
           </Row>
 
           <Row className="mt-3">
-            <Col md={5}>info@newebon.com</Col>
+            <Col md={5}>info@gpaint.com.au</Col>
             <Col md={7}>
               <span className="follow_us_footer">
                 Follow Us
@@ -89,7 +89,7 @@ const Footer = () => {
         <div className="secondary_footer">
           <Row>
             <Col md={6} sm={12}>
-              ©2024 Newebon All rights reserved.
+              ©2024 GPaint All rights reserved.
             </Col>
             <Col md={6} sm={12}>
               <div className="float-md-end float-sm-start mt-md-0 mt-sm-3 ">

@@ -1,4 +1,4 @@
-import AttendanceImg from "../../../Assets/svg/homeImage.svg"
+import AttendanceImg from "../../../Assets/images/jpg/image1.jpg"
 import GroupPeople from "../../../Assets/svg/group-people-working-team.svg"
 import LoginSystem from "../../../Assets/svg/loginScreenImage.svg"
 
@@ -9,7 +9,12 @@ export const homePgContent = [
         subtitleClass: "sub_title",
         title: "GPaint",
         headingStyle: "firstmain_heading",
-        description: [{ para: "Software to help wide range of organizations from educational institutions to business corporations with our innovative solutions. Your journey to efficiency, precision begins here." }],
+        description: [{ para: "At WA Painters, we’re committed to your satisfaction"
++"Whether it's a residential or commercial project, our team delivers top-notch painting services with exceptional results. We only use high-quality materials to ensure lasting beauty for your property."
+
++"We offer a wide range of painting and decorating services to suit any budget. Every job meets Australian painting standards and OHS guidelines, ensuring safety and quality. Our trained team is dedicated to providing the best service and ensuring you’re happy with the final outcome" 
+
++"Trust us to handle every detail, with quotes provided for each project, ensuring great value for your investment" }],
         btnLabel: "View in detail",
         button: true,
         secondContentImg: AttendanceImg,
@@ -20,7 +25,7 @@ export const homePgContent = [
     {
         headingStyle: "sec_main_heading",
         title: "In the world of challenges, we offer solution",
-        description: [{ para: "NeweboN has a strong motive of providing better solutions for various problems exist around. In a world where challenges often seem insurmountable, we stand firm as your ally, ready to face adversity head-on. We believe that every obstacle is an opportunity for innovation. Here's why we are your go-to partner for solutions in the face of challenges." }],
+        description: [{ para: "GPaint has a strong motive of providing better solutions for various problems exist around. In a world where challenges often seem insurmountable, we stand firm as your ally, ready to face adversity head-on. We believe that every obstacle is an opportunity for innovation. Here's why we are your go-to partner for solutions in the face of challenges." }],
         firstContentImg: GroupPeople,
         secondContentImg: "",
         button: false,

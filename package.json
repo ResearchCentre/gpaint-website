@@ -1,8 +1,8 @@
 {
-  "name": "gpaint-website",
+  "name": "gpaintwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gpaint.com.au", 
+  "homepage": "https://gpaint.com.au",
   "dependencies": {
     "@ant-design/plots": "^1.2.5",
     "@emotion/react": "^11.10.6",
@@ -48,24 +48,14 @@
     "tss-react": "^4.9.2",
     "web-vitals": "^2.1.4"
   },
-
-  // "scripts": {
-  //   "start": "cross-env PORT=5005 react-scripts start",
-  //   "build": "react-scripts build",
-  //   "test": "react-scripts test",
-  //   "eject": "react-scripts eject"
-  // },
-
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "start": "cross-env PORT=5005 react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-}
-
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "cross-env PORT=5005 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

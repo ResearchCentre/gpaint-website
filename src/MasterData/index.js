@@ -8,7 +8,7 @@ export const URL =
 export const AUTH_BASE_URL =
   "https://gecl3c0ki5.execute-api.ap-south-1.amazonaws.com/dev";
 
-export const AppName = "NeweboN";
+export const AppName = "GPaint";
 export const subTitle = "UserCheck";
 
 export const AppPrimaryColor = "#4124FF";
@@ -175,7 +175,7 @@ export const faq_card = [
 // Please turn off for no banner as "false"
 export const showBanner = false;
 
-let productName = "NeweboN";
+let productName = "GPaint";
 
 // Blog Data 
 export const blogDataList = [
