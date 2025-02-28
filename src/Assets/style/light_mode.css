@@ -1,0 +1,167 @@
+:root {
+    --primary-color: #4124FF;
+    --text-color: #1F2024;
+    --text-secondary: #565656;
+    --border-color: #B6B6B6;
+    --placeholder-color: #8F9098;
+    --bg-white: #ffff;
+}
+
+body {
+    background-color: #ffff;
+    color: var(--text-color);
+}
+
+.light_mode {
+    background-color: #ffff;
+    color: var(--text-color);
+}
+
+.light_mode .user_sidemenu .active_user_menu .list-group-item {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.light_mode .setting_module a .setting_nav_card, .light_mode .setting_module a {
+    color: var(--text-color);
+}
+
+.light_mode .setting_nav_card svg {
+    color: var(--primary-color);
+}
+
+.light_mode .setting_module .form-select {
+    color: var(--text-color);
+}
+
+
+.light_mode .faqs_accordion .accordion-button:not(.collapsed) {
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.light_mode .how_it_work_pg li::marker {
+    color: var(--text-color);
+}
+
+.light_mode .faqs_accordion .accordion-button:not(.collapsed) svg {
+    rotate: 180deg;
+}
+
+.light_mode .accordion-item, .light_mode .faqs_accordion .accordion-button {
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+
+.light_mode .user_sidemenu {
+    border: 1px solid var(--border-color);
+    background: transparent;
+}
+
+.light_mode .user_sidemenu .list-group-item {
+    color: var(--text-color)
+}
+
+.light_mode .myaccount_id {
+    color: #565656;
+}
+
+.light_mode .myaccount_main_heading {
+    color: var(--text-color);
+}
+
+.light_mode .myaccount_main_heading span {
+    color: var(--primary-color);
+}
+
+.light_mode .how_it_work_pg {
+    color: var(--text-secondary)
+}
+
+.light_mode .how_it_work_pg h2 {
+    color: var(--text-color);
+}
+
+.light_mode .primary_txt {
+    color: var(--primary-color)
+}
+
+.light_mode .common_card {
+    background-color: transparent;
+}
+
+.light_mode .copy_icon .input-group-text svg:hover {
+    color: var(--primary-color);
+}
+
+.light_mode .copytxt_label {
+    color: var(--text-secondary);
+}
+
+.light_mode .social_content a {
+    color: var(--text-secondary);
+}
+
+.light_mode .help_form .form-label {
+    color: var(--text-secondary) !important;
+}
+
+.light_mode .help_para {
+    color: var(--text-secondary);
+}
+
+.light_mode .app_btn .btn-primary {
+    /* background-color: var(--primary-color); */
+    /* border-color: var(--primary-color); */
+}
+
+.light_mode .app_btn .btn-primary:focus {
+    color: #ffff;
+    /* background-color: var(--primary-color); */
+}
+
+.light_mode .logout_alert h4 {
+    color: var(--primary-color);
+}
+
+.light_mode .logout_alert.modal {
+    background-color: #fff;
+}
+
+.light_mode .attendance_bluecontainer h1 {
+    color: #fff;
+}
+
+.light_mode .attendance_bluecontainer h1 a {
+    color: var(--primary-color)
+}
+
+.light_mode .detail_txt {
+    color: #565656;
+}
+
+.light_mode .exp_txt {
+    color: var(--text-secondary);
+}
+
+.light_mode .product_menu .subscribe_txt {
+    color: #4124FF !important;
+}
+
+.light_mode .product_menu h3 {
+    color: var(--txt-color);
+}
+
+.light_mode .product_menu .description_prd {
+    color: var(--secondaty-txt)
+}
+
+.light_mode .logout_alert.modal, .light_mode .logout_alert .modal-content {
+    background-color: #fff;
+    color: var(--text-color) !important;
+}
+
+.light_mode .logout_text {
+    color: var(--text-color) !important;
+}

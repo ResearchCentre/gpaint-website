@@ -1,0 +1,9 @@
+export const css_1 = "col-lg-3 col-md-6 col-sm-12 my-2";
+export const css_2 = "form-label";
+export const css_3 = "text";
+export const css_4 = "submit";
+export const css_5 = "invalid-feedback";
+export const css_6 = "col-md-12 mb-2";
+export const css_7 = "col-12 d-flex justify-content-center";
+export const css_8 = "btn btn-primary mr-1";
+export const css_9 = "button";
