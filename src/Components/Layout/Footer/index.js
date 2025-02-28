@@ -41,8 +41,9 @@ const Footer = () => {
               >
                 <img
                   src={Logo}
-                  style={{ height: "30px", width: "auto" }}
-                  alt="NeweboN"
+                  alt="GPaint"
+                  style={{ height: "80px", width: "auto" }}
+
                 />
               </Typography>
             </Col>

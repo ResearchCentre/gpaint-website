@@ -7,7 +7,7 @@ export const homePgContent = [
     {
         topSubTitle: "We help you",
         subtitleClass: "sub_title",
-        title: "Live Attendance",
+        title: "GPaint",
         headingStyle: "firstmain_heading",
         description: [{ para: "Software to help wide range of organizations from educational institutions to business corporations with our innovative solutions. Your journey to efficiency, precision begins here." }],
         btnLabel: "View in detail",

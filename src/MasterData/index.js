@@ -71,7 +71,7 @@ export const productList = [
   },
   {
     value: 3,
-    label: "Live Attendance",
+    label: "GPaint",
     activeStatus: true,
     img: Images.WATCH_USER,
     url : "https://www.access.newebon.com/register?AppCode=3&ReferCode=null",

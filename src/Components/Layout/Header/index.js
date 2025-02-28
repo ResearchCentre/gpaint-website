@@ -122,8 +122,8 @@ const ResponsiveAppBar = ({ isDarkTheme }) => {
             >
               <img
                 src={Logo}
-                style={{ height: "30px", width: "auto" }}
-                alt="NeweboN"
+                style={{ height: "80px", width: "auto" }}
+                alt="GPaint"
               />
             </Typography>
 
@@ -146,26 +146,28 @@ const ResponsiveAppBar = ({ isDarkTheme }) => {
             >
               <img
                 src={Logo}
-                style={{ height: "30px", width: "100px" }}
-                alt="NeweboN"
+                style={{ height: "80px", width: "auto" }}
+                alt="Gpaint"
               />
             </Typography>
 
             <Box sx={{ flexGrow: 0 }}>
               <span className="header_btn">
-                <Button
+
+              CALL US NOW: +61 411 963 985
+                {/* <Button
                   variant="link"
                   onClick={() => handleBtnClick(login_url, 2)}
                 >
                   Login
-                </Button>
+                </Button> */}
               </span>
-              <UIButton
+              {/* <UIButton
                 btnlabel="Sign Up"
                 btnVariant="primary"
                 handleBtnClick={() => handleBtnClick(signup_url, 1)}
                 btnClassName="mx-1"
-              />
+              /> */}
             </Box>
           </Toolbar>
         </Container>
