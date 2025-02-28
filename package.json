@@ -2,7 +2,7 @@
   "name": "gpaintwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gpaint.com.au",
+  "homepage": "https://techcode34.github.io/gpaint-website",  
   "dependencies": {
     "@ant-design/plots": "^1.2.5",
     "@emotion/react": "^11.10.6",
