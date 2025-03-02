@@ -5,7 +5,7 @@ import { Row, Col } from "react-bootstrap";
 const Attendance = () => {
     return (
         <section className='text-center mt-5'>
-            <h3>Why GPaint</h3>
+            <h3>Why You choose GPaint</h3>
 
             <Row>{liveAttendancedata.map((data, idx) => {
                 return (

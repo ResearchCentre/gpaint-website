@@ -169,36 +169,50 @@ const Home = () => {
           })}
         </div>
 
+        <section className="explore_product">
+          <Container>
+            <h2 className="text-center">{exploreProduct[0]?.maintitle}</h2>
+            {exploreProduct.length > 0 &&
+              exploreProduct.map((product, index) => (
+                <Row
+                  key={index}
+                  className={`mb-5 ${
+                    index % 2 === 0 ? "" : "flex-row-reverse"
+                  }`}
+                >
+                  <Col md={6} sm={12}>
+                    <div className="my-lg-0 my-md-4">
+                      <h3>{product.subTitle}</h3>
+                      <p>{product.para}</p>
+                      <UIButton
+                        btnlabel={product.buttonLabel}
+                        handleBtnClick={handleBtnClick}
+                      />
+                    </div>
+                  </Col>
+                  <Col md={6} sm={12} className="text-center">
+                    <img
+                      src={product.img}
+                      alt="system"
+                      className="system_img"
+                    />
+                  </Col>
+                </Row>
+              ))}
+          </Container>
+        </section>
+
         <Aboutus />
       </Container>
-      <section className="explore_product">
-        <Container>
-          <h2 className="text-center">{exploreProduct[0].maintitle}</h2>
-          <Row>
-            <Col md={6} sm={12}>
-              <div className="my-lg-0 my-md-4">
-                <h3>{exploreProduct[0].subTitle}</h3>
-                <p>{exploreProduct[0].para}</p>
-                <UIButton
-                  btnlabel={exploreProduct[0].buttonLabel}
-                  handleBtnClick={handleBtnClick}
-                />
-              </div>
-            </Col>
-            <Col md={6} sm={12} className="text-center">
-              <img
-                src={exploreProduct[0].img}
-                alt="system"
-                className="system_img"
-              />
-            </Col>
-          </Row>
-        </Container>
-      </section>
 
+      <Container>
+        <FaqContent />
+      </Container>
+      
       <Container>
         <Attendance />
       </Container>
+
       <div className="subscription_container">
         <h3 className="text-center">{subscriptionDetail[0].maintitle}</h3>
         <p className="text-center">{subscriptionDetail[0].para}</p>
@@ -230,57 +244,9 @@ const Home = () => {
         </Row>
       </div>
 
-      <div className="extension_att">
-        <h2 style={{ marginBottom: "100px" }} className="text-center">
-          {extensionAttendance[0].title}
-        </h2>
-        <Container>
-          <Row>
-            <Col md={12} lg={6}>
-              <div className="text-center">
-                <img
-                  src={extensionAttendance[0].img}
-                  alt="system att"
-                  className="att_ext_system"
-                />
-              </div>
-            </Col>
-            <Col md={12} lg={6}>
-              <h3>{extensionAttendance[0].subtitle}</h3>
-              <p>{extensionAttendance[0].content}</p>
-              <UIButton
-                btnlabel={extensionAttendance[0].btnLabel}
-                handleBtnClick={handleBtnClick}
-              />
-            </Col>
-          </Row>
-        </Container>
-      </div>
-
-      <Container>
-        <div className="check_in_app">
-          <Row>
-            <Col md={6}>
-              <h2>{extensionAttendance[1].title}</h2>
-              <p>{extensionAttendance[1].content}</p>
-              <b>{extensionAttendance[1].getApp}</b>
-            </Col>
-            <Col md={6}>
-              <img
-                src={extensionAttendance[1].img}
-                alt="Check in app"
-                className="check_in_appimg"
-              />
-            </Col>
-          </Row>
-        </div>
-      </Container>
-
       {isLoading && <Loader />}
 
-      <Container>
-        <FaqContent />
-      </Container>
+     
 
       <Footer />
     </>

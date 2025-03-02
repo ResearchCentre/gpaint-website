@@ -11,17 +11,17 @@ import MobileCheckIn from "../../../Assets/images/svg/twoMobiles.svg";
 
 export const liveAttendancedata = [
     {
-        heading: "Geoframing technology",
-        content: "Define specific geographical boundaries for your workspace directly within the platform. This means employees can only check in or check out when they are within the designated office area.",
+        heading: "Friendly & Professional Team",
+        content: "Our team is passionate, polite, and always ready to assist with a smile. We believe in building long-term relationships with our customers.",
         img: GeoTech
     }, {
-        heading: "Flexible and Customizable",
-        content: "Tailor the geofencing boundaries to suit your unique workspace layout. Easily draw and adjust boundaries through an intuitive interface.",
+        heading: "Fast & Perfect Service",
+        content: "We deliver on time without compromising quality. Our efficient process ensures minimal disruption to your daily life or business operations.",
         img: FlexImg
     },
     {
-        heading: "Mobile Check-In App",
-        content: "Integrated with our Check-In App, this feature is effortlessly accessible to your employees. As they use the app to check in or out, the system ensures their location aligns with the boundaries.",
+        heading: "High-Quality Workmanship",
+        content: "We use premium paints and materials to guarantee a flawless finish that will stand the test of time. Every job is done with precision, from preparation to the final coat.",
         img: Mobile
     }
 ]

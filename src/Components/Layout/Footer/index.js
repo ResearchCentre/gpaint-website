@@ -47,22 +47,22 @@ const Footer = () => {
                 />
               </Typography>
             </Col>
-            <Col lg={1} md={2}>
+            {/* <Col lg={1} md={2}>
               <Link to="/blog" onClick={scrollToTop} className="footer_nav">
                 Blog
               </Link>
-            </Col>
-            <Col lg={1} md={2}>
+            </Col> */}
+            {/* <Col lg={1} md={2}>
               <Link to="/blog" className="footer_nav">
                 Feedback
               </Link>
-            </Col>
-            <Col lg={2} md={3}>
+            </Col> */}
+            {/* <Col lg={2} md={3}>
               <Link to="/blog" className="footer_nav">
               Terms and Conditions
               </Link>
 
-            </Col>
+            </Col> */}
           </Row>
 
           <Row className="mt-3">
