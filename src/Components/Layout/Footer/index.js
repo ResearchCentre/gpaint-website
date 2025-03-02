@@ -66,7 +66,7 @@ const Footer = () => {
           </Row>
 
           <Row className="mt-3">
-            <Col md={5}>info@gpaint.com.au</Col>
+            <Col md={5}>gpaintwa@gmail.com</Col>
             <Col md={7}>
               <span className="follow_us_footer">
                 Follow Us
