@@ -50,7 +50,7 @@ export const SuccessPage = ({responseData, setOpenModel}) => {
                   <p className="details_value mb-0">Enquiry Team</p>  
                   {/* <p className="details_value mb-0">Global Operations</p> */}
                   {/* <p className="details_value mb-0">Contact Phone: 0415 198 140</p> */}
-                  <a className="details_value mb-0" href='https://marketplace.newebon.com/'>Marketplace NeweboN</a>
+                  <a className="details_value mb-0" href='https://gpaint.com.au/'>Marketplace GPaint</a>
                   <div className='text-center mt-5'>
                     <Button className='close_btn' onClick={()=>{setOpenModel(false)}}>Okay</Button>
                   </div>

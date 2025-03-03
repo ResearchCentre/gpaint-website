@@ -60,7 +60,7 @@ export const Enquiry = () => {
           />
         ) : (
           <div>
-            <p className="form_title"> Enquiry Form</p>
+            <p className="form_title"> Customer Enquiry Form</p>
             <div className=" d-flex justify-content-center">
               <Form
                 onFinish={handleSubmit}

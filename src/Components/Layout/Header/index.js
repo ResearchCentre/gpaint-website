@@ -1,7 +1,7 @@
 import { AppBar, Box, Container, Toolbar, Typography } from "@mui/material";
 import React, { useState } from "react";
 import UIButton from "../../Reusable/UIButton/index";
-import Logo from "../../../Assets/images/svg/logo.svg";
+import Logo from "../../../Assets/images/logo.png";
 
 import { Link, useNavigate } from "react-router-dom";
 import { login_url, signup_url } from "../../../MasterData/url";
@@ -133,7 +133,7 @@ const ResponsiveAppBar = ({ isDarkTheme }) => {
               }}
             >
               <ImageWrap>
-                <a href="https://marketplace.newebon.com/">
+                <a href="https://gpaint.com.au/">
                   <img
                     className="logo_image"
                     src={Logo}
@@ -161,7 +161,7 @@ const ResponsiveAppBar = ({ isDarkTheme }) => {
                 textDecoration: "none",
               }}
             >
-              <a href="https://marketplace.newebon.com/">
+              <a href="https://gpaint.com.au/">
                 <ImageWrap>
                   <img
                     src={Logo}
