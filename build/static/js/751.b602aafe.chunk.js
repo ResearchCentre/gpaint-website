@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgpaintwebsite=self.webpackChunkgpaintwebsite||[]).push([[751],{6751:function(e,t,s){e.exports=s.p+"static/media/blog2.77ca404a5dbb20c9e16e.png"}}]);

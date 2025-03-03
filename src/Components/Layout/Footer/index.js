@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import { IconButton, Typography } from "@mui/material";
 import { AppPrimaryColor, AppName } from "../../../MasterData/index";
-import { socialLink } from "../../../Pages/JsonFile/SocialLinks/index";
 import { Link } from "react-router-dom";
 // import Logo from "../../../Assets/svg/Logo.svg";
 import Logo from "../../../Assets/images/logo.png";
@@ -41,47 +40,29 @@ const Footer = () => {
               >
                 <img
                   src={Logo}
-                  alt="GPaint"
-                  style={{ height: "80px", width: "auto" }}
-
+                  style={{ height: "30px", width: "auto" }}
+                  alt="Payment"
                 />
               </Typography>
             </Col>
-            {/* <Col lg={1} md={2}>
-              <Link to="/blog" onClick={scrollToTop} className="footer_nav">
-                Blog
+            <Col lg={1} md={2}>
+              <Link to="/career" onClick={scrollToTop} className="footer_nav">
+                Test 
               </Link>
-            </Col> */}
-            {/* <Col lg={1} md={2}>
-              <Link to="/blog" className="footer_nav">
+            </Col>
+            <Col lg={1} md={2}>
+              <Link to="/career"  onClick={scrollToTop} className="footer_nav">
                 Feedback
               </Link>
-            </Col> */}
-            {/* <Col lg={2} md={3}>
-              <Link to="/blog" className="footer_nav">
+            </Col>
+            <Col lg={2} md={3}>
+              <Link to="/career"  onClick={scrollToTop} className="footer_nav">
               Terms and Conditions
               </Link>
 
-            </Col> */}
-          </Row>
-
-          <Row className="mt-3">
-            <Col md={5}>gpaintwa@gmail.com</Col>
-            <Col md={7}>
-              <span className="follow_us_footer">
-                Follow Us
-                <div className="mx-4 d-inline-block">
-                  {socialLink.map((data, idx) => {
-                    return (
-                      <IconButton>
-                        <img src={data.icon} alt={data.name} />
-                      </IconButton>
-                    );
-                  })}
-                </div>
-              </span>
             </Col>
           </Row>
+
         </Container>
       </section>
 
@@ -89,7 +70,7 @@ const Footer = () => {
         <div className="secondary_footer">
           <Row>
             <Col md={6} sm={12}>
-              ©2024 GPaint All rights reserved.
+              ©2024 Customer Enquiry All rights reserved.
             </Col>
             <Col md={6} sm={12}>
               <div className="float-md-end float-sm-start mt-md-0 mt-sm-3 ">

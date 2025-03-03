@@ -1,13 +1,13 @@
 import { AppBar, Box, Container, Toolbar, Typography } from "@mui/material";
 import React, { useState } from "react";
 import UIButton from "../../Reusable/UIButton/index";
-// import Logo from "../../../Assets/svg/Logo.svg";
-import Logo from "../../../Assets/images/logo.png";
+import Logo from "../../../Assets/images/svg/logo.svg";
 
 import { Link, useNavigate } from "react-router-dom";
 import { login_url, signup_url } from "../../../MasterData/url";
 import { showBanner } from "../../../MasterData/index";
 import { Spinner, Button } from "react-bootstrap";
+import Styled from "styled-components";
 
 const Loader = () => (
   <div
@@ -62,6 +62,18 @@ const scrollToTop = () => {
 const ResponsiveAppBar = ({ isDarkTheme }) => {
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
+  const ImageWrap = Styled.div`
+      .logo_image{
+        width:auto;
+        height:40px;
+      }
+      @media(max-width: 1023px) {
+        .logo_image{
+          width:auto;
+          height:30px;
+        }
+    }
+  `;
 
   const handleBtnClick = (targetedUrl, actionNo) => {
     if (actionNo == 1) {
@@ -106,8 +118,8 @@ const ResponsiveAppBar = ({ isDarkTheme }) => {
             <Typography
               variant="h6"
               noWrap
-              component={Link} // Use Link component instead of div
-              to="/" // Set the destination path
+              // component={Link} 
+              // to="/" 
               onClick={scrollToTop} // Scroll to top when clicked
               sx={{
                 mr: 2,
@@ -120,18 +132,23 @@ const ResponsiveAppBar = ({ isDarkTheme }) => {
                 marginRight: "auto",
               }}
             >
-              <img
-                src={Logo}
-                style={{ height: "80px", width: "auto" }}
-                alt="GPaint"
-              />
+              <ImageWrap>
+                <a href="https://marketplace.newebon.com/">
+                  <img
+                    className="logo_image"
+                    src={Logo}
+                    // className="object-cover min-h-[40px] max-h-[80px]"
+                    alt="Enquiry"
+                  />
+                </a>
+              </ImageWrap>
             </Typography>
 
             <Typography
               variant="h5"
               noWrap
-              component={Link} // Use Link component instead of div
-              to="/" // Set the destination path
+              // component={Link} 
+              // to="/" 
               onClick={scrollToTop} // Scroll to top when clicked
               sx={{
                 mr: 1,
@@ -144,31 +161,33 @@ const ResponsiveAppBar = ({ isDarkTheme }) => {
                 textDecoration: "none",
               }}
             >
-              <img
-                src={Logo}
-                style={{ height: "80px", width: "auto" }}
-                alt="Gpaint"
-              />
+              <a href="https://marketplace.newebon.com/">
+                <ImageWrap>
+                  <img
+                    src={Logo}
+                    className="logo_image"
+                    alt="General Enquiry"
+                  />
+                </ImageWrap>
+              </a>
             </Typography>
 
-            <Box sx={{ flexGrow: 0 }}>
+            {/* <Box sx={{ flexGrow: 0 }}>
               <span className="header_btn">
-
-              CALL US NOW: +61 467 196 540
-                {/* <Button
+                <Button
                   variant="link"
                   onClick={() => handleBtnClick(login_url, 2)}
                 >
                   Login
-                </Button> */}
+                </Button>
               </span>
-              {/* <UIButton
+              <UIButton
                 btnlabel="Sign Up"
                 btnVariant="primary"
                 handleBtnClick={() => handleBtnClick(signup_url, 1)}
                 btnClassName="mx-1"
-              /> */}
-            </Box>
+              />
+            </Box> */}
           </Toolbar>
         </Container>
 

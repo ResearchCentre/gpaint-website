@@ -28,11 +28,12 @@ const UIButton = ({
           color: (isDarkTheme) && "#000"
         }}
       >
-        {btnLoader === true ? (
+        {/* {btnLoader === true ? (
           <Spinner animation="border" size="sm" variant="light" />
         ) : (
           btnlabel
-        )}
+        )} */}
+        {btnlabel}
       </Button>
     </span>
   );

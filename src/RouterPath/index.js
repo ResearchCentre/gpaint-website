@@ -1,20 +1,13 @@
 import React, { useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "../Components/Layout/Body/index";
-import Home from "../Pages/Home";
-import Blog from "../Pages/Blog";
-import Help from "../Pages/Help";
-import Product from "../Pages/Product";
+import { Enquiry } from "../Pages/Enquiry";
 
-
-const RoutePath = ({ toggleThemeDark, toggleThemeLight, isDarkTheme }) => {
-  const dispatch = useDispatch();
+const RoutePath = ({ isDarkTheme }) => {
 
   useEffect(() => {
     const handleInvalidToken = (e) => {
       if (e.key === "apptoken" && e.oldValue && !e.newValue) {
-        //  dispatch(logOutApp());
       }
     };
 
@@ -28,21 +21,14 @@ const RoutePath = ({ toggleThemeDark, toggleThemeLight, isDarkTheme }) => {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          {/* working on */}
-          {/* <Route element={<ProtectedRoute />}> */}
           <Route
             element={
               <Layout isDarkTheme={isDarkTheme} />
             }
           >
-            <Route path="/" element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/help" element={<Help />} />
-            <Route path="/product" element={<Product />} />
-
+            <Route path="/" element={<Enquiry />} />
+            <Route path="/feedback" element={<Enquiry />} />          
           </Route>
-          {/* </Route> */}
         </Routes>
       </BrowserRouter>
     </div>

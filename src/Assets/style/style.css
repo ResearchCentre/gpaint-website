@@ -761,7 +761,6 @@
 }
 
 .content_divider_ecllips {
-    background-image: url('../images/jpg/Ellipse.jpg');
     width: 100px;
     height: 90px;
     position: absolute;
@@ -805,7 +804,9 @@
     font-style: normal;
     font-weight: 400;
 }
-
+.home_cards_session:nth-child(even){
+    flex-direction: row-reverse;
+}
 .bottom_subtittle {
     font-size: 24px;
     font-style: normal;
@@ -971,7 +972,6 @@
 
 .attendance_bluecontainer {
     border-radius: 12px;
-    /* background-image: url('./Assets/images/WatchUserBk.jpg'); */
     background-repeat: no-repeat;
     width: 100%;
     color: black;

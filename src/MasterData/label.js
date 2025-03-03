@@ -8,3 +8,6 @@ export const label_7 = "10 points per friend";
 export const label_8 = "You can also send your friend a mail to join our platform";
 export const label_9 = "There is no submitted positions!";
 
+export const label_array_1 = [
+"Name", "Email", "Phone Number", "Enquiry Type", "Message"
+]
