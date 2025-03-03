@@ -18,7 +18,7 @@ export const ct02_local_url = "http://localhost:3002";         // ConnectTalent:
 export const wu03_local_url = "http://localhost:3003";         // WatchUser: Live Attendance Monitor system
 export const uc04_local_url = "http://localhost:3004";         // UserCheck: Worker or Employee Check In App
 // export const login_url = 'http://localhost:3000';              // Login 
-// export const signup_url = 'http://localhost:3000/register';    // Sign Up 
+// export const signup_url = 'https://enquiry.d3j7dyxxptzhtn.amplifyapp.com/';    // Sign Up 
 
 // Development
 export const site_dev_url = "https://main.d3p4tyi259o91a.amplifyapp.com/";         // Website: User's Landing page
@@ -33,4 +33,4 @@ export const uc04_dev_url = "https://dev.d3jhzguz2bd40d.amplifyapp.com/";       
 
 // Live
 export const login_url = 'https://www.access.newebon.com/';              // Login 
-export const signup_url = 'http://localhost:3000/register';    // Sign Up 
+export const signup_url = 'https://enquiry.d3j7dyxxptzhtn.amplifyapp.com/';    // Sign Up 
