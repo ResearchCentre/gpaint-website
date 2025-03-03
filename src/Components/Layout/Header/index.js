@@ -146,29 +146,28 @@ const ResponsiveAppBar = ({ isDarkTheme }) => {
             >
               <img
                 src={Logo}
-                style={{ height: "80px", width: "auto" }}
+                style={{ height: "30px", width: "auto" }}
                 alt="Gpaint"
               />
             </Typography>
 
-            <Box sx={{ flexGrow: 0 }}>
+            {/* <Box sx={{ flexGrow: 0 }}>
               <span className="header_btn">
 
               CALL US NOW: +61 467 196 540
-                {/* <Button
-                  variant="link"
-                  onClick={() => handleBtnClick(login_url, 2)}
-                >
-                  Login
-                </Button> */}
+              
               </span>
-              {/* <UIButton
-                btnlabel="Sign Up"
-                btnVariant="primary"
-                handleBtnClick={() => handleBtnClick(signup_url, 1)}
-                btnClassName="mx-1"
-              /> */}
-            </Box>
+              
+            </Box> */}
+
+            <Box sx={{ flexGrow: 0 }}>
+  <span className="header_btn">
+    <a href="tel:+61467196540" style={{ textDecoration: "none", color: "inherit" }}>
+      CALL US NOW: +61 467 196 540
+    </a>
+  </span>
+</Box>
+
           </Toolbar>
         </Container>
 
