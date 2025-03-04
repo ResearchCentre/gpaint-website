@@ -137,6 +137,7 @@ const ResponsiveAppBar = ({ isDarkTheme }) => {
                   <img
                     className="logo_image"
                     src={Logo}
+                    style={{ height: "80px", width: "auto" }}
                     // className="object-cover min-h-[40px] max-h-[80px]"
                     alt="Enquiry"
                   />
@@ -165,7 +166,8 @@ const ResponsiveAppBar = ({ isDarkTheme }) => {
                 <ImageWrap>
                   <img
                     src={Logo}
-                    className="logo_image"
+                    // className="logo_image"
+                    style={{ height: "80px", width: "auto" }}
                     alt="General Enquiry"
                   />
                 </ImageWrap>
